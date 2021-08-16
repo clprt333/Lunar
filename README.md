@@ -47,13 +47,15 @@ Build currently works on BackBox.
 
 Lunar-Botnet. Created as an objective for an assignment at school.
 
-You must edit rc files and add the rhost and rport when using auto attack.
+You must edit the rc files and add the rhost, rport and other options when using auto attack.
 
-you need GeoLite2-City.mmdb
+You need GeoLite2-City.mmdb
+
+You may also need to add a folder named "TARGETS" within the root directory.
 
 pip install -r requirements.txt
 
-shoutout to quantumcored.
+Shoutout to quantumcored.
 
 usage: https://youtu.be/nPPghaM_LjY
 
