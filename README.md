@@ -2,8 +2,8 @@ LUNAR BOTNET
 
 Usage: sudo python3 main.py
 
-Select 1 or 2. Make sure to check settings.
-Do not click the executables within the directories, these are for the victim. The executables that are built are an example.
+Select 1 or 2. Make sure to check settings. (settings.ini and lunar.ini)
+Do not click the executables within the directories, these are for the victim.
 I AM NOT RESPONSIBLE FOR ANY DAMAGE YOU DO TO OTHERS OR YOURSELF YOU HAVE BEEN WARNED.
 
 Contains 2 Modules
@@ -24,6 +24,9 @@ Many premade examples are within the payload section of the botnet.
 
 Lunar_attack.rc
 This file is the metasploit resource file that is produced for the botnet for the automated attacks within the botnet. Change the LHOST and the RHOST.
+
+kernel/core.py 
+You will find the autoattack code here. This generates the Lunar_attack.rc file, you can edit the various options within the code, or wait for a rcfile to be generated and edit the rcfile directly.
 
 Both botnets have "Build" features, which will build the malware as long as you meet the pre-requisites of software.
 This can be attained with chmod +x install.sh and python pip -r requirements.txt
