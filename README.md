@@ -55,7 +55,7 @@ You may also need to add a folder named "TARGETS" within the root directory.
 
 pip install -r requirements.txt
 
-Shoutout to quantumcored.
+Shoutout to quantumcore.
 
 usage: https://youtu.be/nPPghaM_LjY
 
